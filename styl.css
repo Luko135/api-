@@ -1,0 +1,46 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body {
+}
+.my_data_base {
+	padding: 100px;
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+	grid-template-rows: repeat(auto-fill, minmax(500px, 1fr));
+	grid-gap: 50px;
+}
+.post {
+	width: 300px;
+	height: fit-content;
+	border: 1px solid rgb(89, 89, 250);
+	padding: 20px;
+}
+.single_post {
+	width: 300px;
+	height: fit-content;
+	border: 4px solid rgb(238, 22, 22);
+	padding: 20px;
+}
+.title {
+	font-size: 28px;
+}
+.body {
+	font-size: 16px;
+}
+.downbar {
+	border-radius: 5px;
+	border: 1px solid rgb(89, 89, 250);
+	background-color: rgb(120, 120, 253);
+	color: white;
+	font-size: 12px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+input {
+}
